@@ -1,0 +1,6 @@
+step,rows
+source_rows,541909
+exact_duplicate_rows,5268
+cancellation_invoice_rows,9288
+clean_sales_rows,524878
+missing_customer_id_rows_retained_in_sales,132186

@@ -1,0 +1,39 @@
+{
+  "source_rows": 541909,
+  "exact_duplicate_rows": 5268,
+  "cancellation_invoice_rows": 9288,
+  "missing_customer_ids": 135080,
+  "clean_sales_rows": 524878,
+  "clean_orders": 19960,
+  "identified_customers": 4338,
+  "unassigned_customer_rows_retained_in_sales": 132186,
+  "date_min": "2010-12-01",
+  "date_max": "2011-12-09",
+  "positive_sales_line_revenue_gbp": 10642110.8,
+  "repeat_customer_share": 0.6558,
+  "one_time_customer_share": 0.3442,
+  "high_value_repeat_customers": 834,
+  "iqr_diagnostics": {
+    "quantity": {
+      "q1": 1.0,
+      "q3": 11.0,
+      "lower_bound": -14.0,
+      "upper_bound": 26.0,
+      "outlier_rows": 27111
+    },
+    "unitprice": {
+      "q1": 1.25,
+      "q3": 4.13,
+      "lower_bound": -3.0700000000000003,
+      "upper_bound": 8.45,
+      "outlier_rows": 37827
+    },
+    "revenue": {
+      "q1": 3.9,
+      "q3": 17.700000000000003,
+      "lower_bound": -16.800000000000004,
+      "upper_bound": 38.400000000000006,
+      "outlier_rows": 42624
+    }
+  }
+}
